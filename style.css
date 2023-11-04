@@ -1,0 +1,157 @@
+body {
+    background-color: #FFB6C1;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+
+
+}
+
+
+.container {
+
+
+    height: 1200px; /* Default height for larger screens */
+    width: 760px; /* Default width for larger screens */
+    margin: 50px auto; /* Adjust margin for centering */
+    overflow: auto;
+    display: flex;
+
+
+    justify-content: center;
+    box-shadow: 0px 0px 20px -7px rgba(0,0,0,0.9);
+    -webkit-box-shadow: 0px 0px 20px -7px rgba(0,0,0,0.9);
+    -moz-box-shadow: 0px 0px 20px -7px rgba(0,0,0,0.9);
+    border-radius: 10px;
+    
+
+
+    z-index: 15;
+}
+
+
+.content {
+    color: #463E3F;
+
+
+    height: auto; /* Height greater than the container for scroll demo */
+    width: 100%; /* Default width for larger screens */
+    background-color: #f5f5f5; /* Change as needed */
+    padding: 1px; /* Just for example */
+    overflow: auto;
+   z-index: 10;
+
+
+
+
+
+
+}
+
+
+@media (max-width: 768px) {
+    /* Media query for screens up to 768px width (typical for phones) */
+    .container {
+        height: 600px; /* Adjusted height for smaller screens (phones) */
+        width: 70%; /* Adjusted width for smaller screens (phones) */
+    }
+
+
+    .content {
+        height: auto; /* Adjusted height for smaller screens (phones) */
+        width: 100%; /* Adjusted width for smaller screens (phones) */
+        padding: 0px; /* Adjusted padding for smaller screens (phones) */
+
+        
+    }
+
+    #countdown {
+        position: relative;
+        margin: 0 auto;
+        top: a;
+        left: auto;
+        transform: none;
+    }
+}
+
+
+@media (min-width: 1200px) {
+    /* Media query for screens larger than 1200px width */
+    .container {
+        height: 900px; /* Adjusted height for larger screens */
+        width: 700px; /* Adjusted width for larger screens */
+        margin-top: 35px;
+        margin-bottom: 20px;
+    }
+ 
+    .content {
+        padding: 20px; /* Adjusted padding for larger screens */
+    }
+}
+
+
+
+
+p {
+    margin: 5px 0.7pc;
+    line-height: 21px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700; /* Bold */
+}
+
+
+
+
+.unselectable {
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+
+#countdown {
+    border: 0px solid black;
+    width: 150px;
+    height: 45px;
+    position: absolute;
+    top: 50%; /* Places the element's top edge in the middle of the container */
+    left: 50%; /* Places the element's left edge in the middle of the container */
+    transform: translate(-50%, -50%); /* Centers the countdown in the middle */
+    z-index: 15;
+border-radius: 5px;
+font-weight: 700; /* Bold */
+
+background-color: rgb(36, 34, 34);
+box-shadow: 0px 0px 50px -3px rgb(255, 252, 252);
+text-align: left;
+font-size: 20px;
+
+color: rgb(255, 255, 255);
+
+text-align: center;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
